@@ -29,15 +29,14 @@ public class Q1String {
 		}
 
 		// Part3:Replace City name
-		System.out.println("enter city name starts with T");
-		String cityName = sc.next();
-			if (cityName.startsWith("T")) {
-			cityName.replaceAll("Toronto","m
 
-				System.out.println("new city name is: " + cityName);
+		System.out.println("City name starting with T is replaced to Mississauga");
+		for (int i = 0; i < cityList.length; i++) {
+			if (cityList[i].startsWith("T")) {
+				cityList[i] = "Mississauga";
+
 			}
-			
+		}
 
 	}
-
 }
